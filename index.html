@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Images/1008904.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4bb4dfed16.js" crossorigin="anonymous"></script>
-    <title>Portfólio da Lhayla</title>
+    <title>Portfólio</title>
 </head>
 <body>
-    
-
     <header>
-        <div class="interface">
+        <nav class="interface">
             <div class="logo">
-                <i class="fa-regular fa-l"></i>
                 <a href="#">
+                    <img src="Images/favicon-32x32.png">
                 </a>
             </div>
-            
-
-            <nav class="menu-desktop">
+            <div class="nav-list">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Minhas especialidades</a></li>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Projetos </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Qualidades</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
                 </ul>
-            </nav>
+            </div>
+            <div class="btn-contato">
+                <a href="formulario.html">
+                    <button>Contato</button>
+                </a>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="Images/menu_white_36dp.svg" alt=""></button>
+            </div>
+
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Qualidade</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="formulario.html" class="nav-link">Contato</a></li>
+            </ul>
             <div class="btn-contato">
                 <a href="formulario.html">
                     <button>Contato</button>
@@ -47,5 +59,8 @@
                 <a href="https://github.com/Lhayla-Shamy1" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
             <script src="js/index.js"></script>
+            <script src="script.js"></script>
+
 </body>
 </html>
+
